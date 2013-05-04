@@ -29,6 +29,7 @@ PRODUCT_COPY_FILES += \
   vendor/oppo/find5/proprietary/bin/efsks:system/bin/efsks \
   vendor/oppo/find5/proprietary/bin/hci_qcomm_init:system/bin/hci_qcomm_init \
   vendor/oppo/find5/proprietary/bin/ks:system/bin/ks \
+  vendor/oppo/find5/proprietary/bin/mm-qcamera-daemon:system/bin/mm-qcamera-daemon \
   vendor/oppo/find5/proprietary/bin/mpdecision:system/bin/mpdecision \
   vendor/oppo/find5/proprietary/bin/netmgrd:system/bin/netmgrd \
   vendor/oppo/find5/proprietary/bin/nv_tee:system/bin/nv_tee \
@@ -68,12 +69,29 @@ PRODUCT_COPY_FILES += \
   vendor/oppo/find5/proprietary/lib/libOpenVG.so:system/lib/libOpenVG.so \
   vendor/oppo/find5/proprietary/lib/libloc_api_v02.so:system/lib/libloc_api_v02.so \
   vendor/oppo/find5/proprietary/lib/libgemini.so:system/lib/libgemini.so \
+  vendor/oppo/find5/proprietary/lib/libmmcamera_faceproc.so:system/lib/libmmcamera_faceproc.so \
+  vendor/oppo/find5/proprietary/lib/libmmcamera_frameproc.so:system/lib/libmmcamera_frameproc.so \
+  vendor/oppo/find5/proprietary/lib/libmmcamera_hdr_lib.so:system/lib/libmmcamera_hdr_lib.so \
+  vendor/oppo/find5/proprietary/lib/libmmcamera_image_stab.so:system/lib/libmmcamera_image_stab.so \
+  vendor/oppo/find5/proprietary/lib/libmmcamera_statsproc31.so:system/lib/libmmcamera_statsproc31.so \
+  vendor/oppo/find5/proprietary/lib/libmmcamera_wavelet_lib.so:system/lib/libmmcamera_wavelet_lib.so \
   vendor/oppo/find5/proprietary/lib/libmmipl.so:system/lib/libmmipl.so \
   vendor/oppo/find5/proprietary/lib/libmmjpeg.so:system/lib/libmmjpeg.so \
   vendor/oppo/find5/proprietary/lib/libmmjps.so:system/lib/libmmjps.so \
   vendor/oppo/find5/proprietary/lib/libmmmpo.so:system/lib/libmmmpo.so \
   vendor/oppo/find5/proprietary/lib/libmmmpod.so:system/lib/libmmmpod.so \
   vendor/oppo/find5/proprietary/lib/libmmstillomx.so:system/lib/libmmstillomx.so \
+  vendor/oppo/find5/proprietary/lib/liboemcamera.so:system/lib/liboemcamera.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_imx135_default_video.so:system/lib/libchromatix_imx135_default_video.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_imx135_hfr_90fps.so:system/lib/libchromatix_imx135_hfr_90fps.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_imx135_video_hd.so:system/lib/libchromatix_imx135_video_hd.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_imx135_hfr_120fps.so:system/lib/libchromatix_imx135_hfr_120fps.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_imx135_preview.so:system/lib/libchromatix_imx135_preview.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_imx135_zsl.so:system/lib/libchromatix_imx135_zsl.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_s5k6a3yx_default_video.so:system/lib/libchromatix_s5k6a3yx_default_video.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_s5k6a3yx_preview.so:system/lib/libchromatix_s5k6a3yx_preview.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_s5k6a3yx_video_hd.so:system/lib/libchromatix_s5k6a3yx_video_hd.so \
+  vendor/oppo/find5/proprietary/lib/libchromatix_s5k6a3yx_zsl.so:system/lib/libchromatix_s5k6a3yx_zsl.so \
   vendor/oppo/find5/proprietary/lib/libI420colorconvert.so:system/lib/libI420colorconvert.so \
   vendor/oppo/find5/proprietary/lib/libmm-color-convertor.so:system/lib/libmm-color-convertor.so \
   vendor/oppo/find5/proprietary/lib/libOmxAacDec.so:system/lib/libOmxAacDec.so \
@@ -137,6 +155,7 @@ PRODUCT_COPY_FILES += \
   vendor/oppo/find5/proprietary/etc/firmware/vidc.mdt:system/etc/firmware/vidc.mdt \
   vendor/oppo/find5/proprietary/lib/hw/lights.msm8960.so:system/lib/hw/lights.msm8960.so \
   vendor/oppo/find5/proprietary/lib/hw/raw_part.default.so:system/lib/hw/raw_part.default.so \
+  vendor/oppo/find5/proprietary/lib/hw/camera.msm8960.so:system/lib/hw/camera.msm8960.so \
   vendor/oppo/find5/proprietary/vendor/lib/libwvm.so:system/vendor/lib/libwvm.so \
   vendor/oppo/find5/proprietary/vendor/lib/libwvdrm_L3.so:system/vendor/lib/libwvdrm_L3.so \
   vendor/oppo/find5/proprietary/vendor/lib/libWVStreamControlAPI_L3.so:system/vendor/lib/libWVStreamControlAPI_L3.so \
